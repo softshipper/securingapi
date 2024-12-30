@@ -5,5 +5,5 @@ router = APIRouter()
 
 
 @router.get("/")
-async def update_admin():
+async def danger_zone():
     return {"message": "Admin getting schwifty"}
